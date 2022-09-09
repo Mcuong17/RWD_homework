@@ -1,0 +1,25 @@
+@media (min-width: 1024px) {
+    .pc {
+        display: block;
+    }
+}
+
+/* Tablet */
+@media (min-width: 769px ) and (max-width: 1023px) {
+    .content__img {
+        width: 49%;
+        margin: 8px 4px;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .content__img {
+        width: 100%;
+        margin: 8px 0;
+    }
+    .content__desc {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    display: table;
+    clear: both;
+}
+
+h3,h4 {
+    margin: 8px 0;
+}
+
+.content__img {
+    width: 24%;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    float: left;
+    margin: 0 4px;
+}
+.content__img img,
+.content__img img,
+.content__img img,
+.content__img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.content__desc {
+    padding: 12px 0;
+    text-align: center;
+}
+
+.footer {
+   margin: 6px 0;
+}
